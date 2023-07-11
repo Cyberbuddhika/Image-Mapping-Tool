@@ -6,7 +6,7 @@ This is a simple tool to help you map your own image to find the exact coordinat
 
 - `index.html`: This is the main HTML file that structures the webpage. It links to the CSS and JavaScript files. It contains a `div` with the id `map` which is where your image will be displayed.
 
-- `style.css`: This file contains all the styles for the webpage. It is here that you provide your image's path in the `#map` rule (replace `'/map_image/Thilan-floorplan.jpeg'` with the path to your image). The dimensions of the map (and consequently your image) are defined here too. If your image has different dimensions, adjust the width and height properties accordingly.
+- `style.css`: This file contains all the styles for the webpage. It is here that you provide your image's path in the `#map` rule (replace `'/map_image/hannah-lim-LPp_WLWyfGU-unsplash.jpg'` with the path to your image). The dimensions of the map (and consequently your image) are defined here too. If your image has different dimensions, adjust the width and height properties accordingly.
 
 - `script.js`: This JavaScript file is where the functionality of the tool is defined. It adds markers at the location where the user clicks on the image. The markers display the x and y coordinates of the point clicked. An `onclick` event on a marker alerts the coordinates of that marker.
 
